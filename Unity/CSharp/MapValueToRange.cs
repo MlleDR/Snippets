@@ -6,9 +6,7 @@ float MapValueToRange(float value, float min, float max)
     return Mathf.Clamp(value, min, max);
 }
 
-/*****************************
- * Ex : Clamp the Input values
- * ***************************/
+/* Ex : Clamp the Input values */
 float InputValue = Input.GetAxis("Horizontal");
 float clampedInput = MapValueToRange(InputValue, 0, 1);
 
