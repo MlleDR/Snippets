@@ -3,7 +3,7 @@
 ************************************************/
 void CallFunctionAtInterval(string function, float startAt, float every)
 {
-    InvokeRepeating(function, startAt, everySeconds); // ex: Calls function DoSomething() after startAt seconds, and every every seconds
+    InvokeRepeating(function, startAt, everySeconds); // ex: Calls function DoSomething() after "startAt" seconds, and every "every" seconds
 }
 
 /*****************
