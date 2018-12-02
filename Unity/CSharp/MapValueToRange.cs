@@ -15,5 +15,5 @@ float clampedInput = MapValueToRange(InputValue, 0, 1);
 /************************
  * Ex : Change Health Bar
  * **********************/
-float HealthDamage = 50;
+float HealthDamage = 0.6f;
 float clampedBar = MapValueToRange(HealthDamage, 0, 100);
