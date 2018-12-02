@@ -1,7 +1,7 @@
 # Snippets 
 Useful snippets that I often use in my projects and that I'm glad to share. 
 
-They are mostly begginers' code (well, just like me :blush:) but I hope they might help others who, like me, started to learn coding from generous coders' community who share their experience freely.
+They are mostly begginers' code (well, just like me :blush:) but I hope they might help others who, like me, started to learn coding from generous coders' community who shared and continue to share their experience freely.
 
 In addition, please have a look at the use of coding in my personal work here : http://lefemmemademoiselle.tumblr.com/ and enjoy!
 Feel free to contact me for any questions or advice on how to upgrade the snippets posted in this reprository.
