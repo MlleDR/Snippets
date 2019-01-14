@@ -11,9 +11,14 @@ public class RotateCameraAroundTarget : MonoBehaviour
 
     void Start()
     {
-        cameraOrbitTarget = new GameObject();
+        // creates an empty gameObject at target position
+        cameraOrbitTarget = new GameObject(); 
         cameraOrbitTarget.transform.position = target.transform.position;
-        cameraOrbitTarget.name = "CAMERAORBIT_TARGET:" + target.name;
+        
+        // name the new Empty gameObject
+        cameraOrbitTarget.name = "CAMERAORBIT_TARGET:" + target.name; 
+        
+        // parent the object on which you've put the script (here the camera) to new Empty gameObject
         transform.parent = cameraOrbitTarget.transform;
     }
 
