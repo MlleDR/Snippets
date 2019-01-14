@@ -24,13 +24,14 @@ public class RotateCameraAroundTarget : MonoBehaviour
 
     void Update()
     {
+        // move camera orbit right
         if (Input.GetKey(KeyCode.D))
         {
             cameraOrbitTarget.transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
             Debug.Log("D");
-
         }
-
+        
+        // move camera orbit left
         if (Input.GetKey(KeyCode.Q))
         {
             cameraOrbitTarget.transform.Rotate(0, -(rotateSpeed * Time.deltaTime), 0);
