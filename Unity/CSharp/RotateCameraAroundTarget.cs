@@ -40,12 +40,12 @@ public class RotateCameraAroundTarget : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Q))
         {
-            targetParent.transform.Rotate(0f, YRotation, 0f);
+            cameraOrbitTarget.transform.Rotate(0f, YRotation, 0f);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            targetParent.transform.Rotate(0f, -YRotation, 0f);
+            cameraOrbitTarget.transform.Rotate(0f, -YRotation, 0f);
         }
     }
 }
