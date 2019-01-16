@@ -35,7 +35,7 @@ public class RotateCameraAroundTarget : MonoBehaviour
         transform.parent = cameraOrbitTarget.transform;
     }
     
-        void RotateWithKeyboardInput()
+    void RotateWithKeyboardInput()
     {
         float YRotation = rotationSpeed * Time.deltaTime;
 
