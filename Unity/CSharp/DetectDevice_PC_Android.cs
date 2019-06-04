@@ -1,5 +1,5 @@
 /// Useful if condition to differentiate whether you are running your game on an Android device or on PC (in Play Mode)
-/// This little piece of code frees you from using public user booleans switched manulaly between PC and Android.
+/// This little piece of code frees you from using public user booleans switched manually between PC and Android.
 if (Input.touchSupported && Application.platform != RuntimePlatform.WebGLPlayer)
 {
   // Do something when the game runs on an Android Device.
