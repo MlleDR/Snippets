@@ -11,6 +11,9 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 - [*CreatePointAroundCircle.js*](https://github.com/MlleDR/Snippets/blob/master/Javascript/CreatePointAroundCircle.js) - Method to make an object move around a circle. [Demo with p5 library](https://github.com/MlleDR/point-on-circle).
 
 
+##
+
+
 ### Unity/C# folder
 #### Basic
 - [*DistanceFromTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/DistanceFromTarget.cs) - Methods to calculate the distance between two Gameobjects.
@@ -20,9 +23,14 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 - [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
 
 
+##
+
+
 #### Android Device
 - [*DetectDevice_PC_Android.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/DetectDevice_PC_Android.cs) - Detect easily if your app is running on an Android device or in Play mode in Unity engine. This little piece of code frees you from using public user booleans switched manually between PC and Android.
 
+
+##
 
 
 #### Creative Coding
