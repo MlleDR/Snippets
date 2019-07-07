@@ -8,7 +8,7 @@ float MapValueToRange(float value, float min, float max)
 
 // Ex : Clamp the Input values
 float InputValue = Input.GetAxis("Horizontal");
-float clampedInput = MapValueToRange(InputValue, 0, 1);
+float clampedInput = MapValueToRange(InputValue, 0, 100);
 
 // Ex : Change Health Bar
 float HealthDamage = 0.6f;
