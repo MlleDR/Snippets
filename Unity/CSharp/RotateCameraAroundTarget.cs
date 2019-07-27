@@ -5,7 +5,7 @@ using UnityEngine;
 public class RotateCameraAroundTarget : MonoBehaviour
 {
     public Transform target;
-    public float rotateSpeed = 100f;
+    public float rotationSpeed = 100f;
     private GameObject cameraOrbitTarget;
 
     void Start()
