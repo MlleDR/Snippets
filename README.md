@@ -23,8 +23,8 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 - [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
 - [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
 
-
 ##
+
 
 
 #### Android Device
@@ -37,3 +37,10 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 #### Creative Coding
 ##### Color
 - [*XYZ_TO_AdobeRGB.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/XYZ_TO_AdobeRGB.cs) - Method that returns an Adobe RGB vector from XYZ coordinates. I created this function to convert my xyz movement to color. You can find [some samples of my work here](https://lefemmemademoiselle.tumblr.com/tagged/dance/chrono/page/4).
+
+##
+
+#### 💡 Tips 💡
+- **Editor folder** - When using a plugin script that is not an asset from the Package Manager, for ex this [awesome community script for Replacing a Prefab by another](Unity/CSharp/RotateCameraAroundTarget.cs), don't forget to put the script in a folder called **Editor**. Thus, it will not be compiled when building your game, nor will it prompt errors like are you missing an assembly reference?
+More info on Replace With Prefab awesome adventure [*here*](https://forum.unity.com/threads/replace-game-object-with-prefab.24311/s)
+##
