@@ -42,5 +42,5 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 
 #### 💡 Tips 💡
 - **Editor folder** - When using a plugin script that is not an asset from the Package Manager, for ex this [awesome community script for Replacing a Prefab by another](Unity/CSharp/ReplaceWithPrefab.cs), don't forget to put the script in a folder called **Editor**. Thus, it will not be compiled when building your game, nor will it prompt errors like are you missing an assembly reference?
-More info on Replace With Prefab awesome adventure [*here*](https://forum.unity.com/threads/replace-game-object-with-prefab.24311/s)
+More info on Replace With Prefab awesome adventure [*here*](https://forum.unity.com/threads/replace-game-object-with-prefab.24311/)
 ##
