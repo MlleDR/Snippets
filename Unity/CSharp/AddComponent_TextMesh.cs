@@ -2,8 +2,7 @@ using UnityEngine;
 
 // AddComponent_TextMesh script //
 /* 26.04.2021 - Simplify code
- * 25.04.2021 - Added script
- */
+ * 25.04.2021 - Added script */
 
 [RequireComponent(typeof(MeshRenderer))] // TesxtMesh needs MeshRenderer. Here I force its creation, but you can add it manually or make sure your gameobject has one.
 public class AddComponent_TextMesh : MonoBehaviour
