@@ -15,17 +15,29 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 
 
 ### Unity/C# folder
-#### Basic
+##### Animation
+- [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
+
+##### Components
 - [*AddComponent_TextMesh.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/AddComponent_TextMesh.cs) - Create a TextMesh component in realtime. 
 
 ![image](https://user-images.githubusercontent.com/27687330/115968166-b9442500-a536-11eb-870b-69af0c62d741.png)
 
+##### Math
 - [*DistanceFromTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/DistanceFromTarget.cs) - Methods to calculate the distance between two Gameobjects.
+
+##### Camera
+- [*OrthoScreenCameraBoundaries.cs*](https://github.com/MlleDR/Snippets/blob/dce7c829199b7ce738703c3eb8119bc801212642/Unity/CSharp/OrthoScreenCameraBoundaries.cs) - Some examples of screen positions on an Orthographic camera (Center, TopLeft, TopRight, BottonLeft, BottonRight)
+
+##### Input
+- [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
+
+##### Utilities
 - [*MapValueToRange.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/MapValueToRange.cs) - Method to map a value between a given range.
 - [*CallFunctionAtInterval.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallFunctionAtInterval.cs) - Method to call a function at a given interval.
 - [*PrintOnlyOnceInUpdateMethod.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/PrintOnlyOnceInUpdateMethod.cs) - Method that will call a function only Once in the Update() method.
-- [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
-- [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
+
+
 
 ##
 
