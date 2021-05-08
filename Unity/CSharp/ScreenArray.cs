@@ -23,7 +23,7 @@
     }
 
 
-    // Ortho Screen Camera Boundaries - Center, TopLeft, TopRight, BottonLeft, BottonRight
+    // Ortho Screen Camera Boundaries - Center, TopLeft, TopRight, BottomLeft, BottomRight
     private void Ortho_ScreenCameraBoundaries()
     {
       // Get pixel width and height 
