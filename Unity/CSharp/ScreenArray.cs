@@ -1,4 +1,5 @@
-// Some examples of screen positions with borderlimits on an Orthographic camera
+// Get a Screen Array and illustrate with spheres on an Orthographic camera
+// From TopLeft to BottomRight corner with borders
     
     private Camera cam;
     public float borderLimit;
@@ -46,7 +47,7 @@
     }
     
     
-    // Get an Screen array and illustrate with spheres
+    // Get an Screen array (TopLeft to BottomRight) and illustrate with spheres
     private void GetScreenArray()
     {
         for (var j = topleft.y; j >= bottomLeft.y; j--)
