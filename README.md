@@ -56,7 +56,7 @@ Feel free to contact me for any questions or advice on how to upgrade the snippe
 - [*XYZ_TO_AdobeRGB.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/XYZ_TO_AdobeRGB.cs) - Method that returns an Adobe RGB vector from XYZ coordinates. I created this function to convert my xyz movement to color. You can find [some samples of my work here](https://lefemmemademoiselle.tumblr.com/tagged/dance/chrono/page/4).
 
 ##### Canvas
-- [*ScreenArray.cs*](https://github.com/MlleDR/Snippets/blob/5c434ca40d9ad534b68d8d0987933112cc04d490/Unity/CSharp/ScreenArray.cs) - Get a Screen Array with borders and illustrate with spheres on an Orthographic camera.
+- [*ScreenArray.cs*](https://github.com/MlleDR/Snippets/blob/5c434ca40d9ad534b68d8d0987933112cc04d490/Unity/CSharp/ScreenArray.cs) - Get a Screen Array from TopLeft to BottomRight corner with borders and illustrate with spheres on an Orthographic camera.
 
 ![image](https://user-images.githubusercontent.com/27687330/117535157-ce1fbe80-aff4-11eb-86b8-e88af15f331e.png)
 
