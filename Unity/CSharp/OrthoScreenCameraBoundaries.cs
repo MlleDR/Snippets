@@ -23,7 +23,7 @@
         pixelY = cam.pixelHeight;
     }
 
-    // Ortho Screen Camera Boundaries - Center, TopLeft, TopRight, BottonLeft, BottonRight
+    // Ortho Screen Camera Boundaries - Center, TopLeft, TopRight, BottonmLeft, BottomRight
     private void Ortho_ScreenCameraBoundaries()
     {
         // Set Brush Coordinates Boundaries
