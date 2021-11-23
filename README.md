@@ -22,27 +22,27 @@ Feel free to contact me for any questions or advice on improving the snippets po
 
 ### Unity/C# folder
 ##### Animation
-- [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
+- [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Animation/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
 - [*ConstantLerp.cs*](https://github.com/MlleDR/Snippets/blob/b3f8662d5cde929fbd08fffb7d1983073558af9c/Unity/CSharp/ConstantLerp.cs) - Constant Vector3.Lerp from A to B with speed
 
 ##### Components
-- [*AddComponent_TextMesh.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/AddComponent_TextMesh.cs) - Create a TextMesh component in realtime. 
+- [*AddComponent_TextMesh.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Components/AddComponent_TextMesh.cs) - Create a TextMesh component in realtime. 
 
 ![image](https://user-images.githubusercontent.com/27687330/115968166-b9442500-a536-11eb-870b-69af0c62d741.png)
 
-##### Math
-- [*DistanceFromTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/DistanceFromTarget.cs) - Methods to calculate the distance between two Gameobjects.
+##### Maths
+- [*DistanceFromTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Maths/DistanceFromTarget.cs) - Methods to calculate the distance between two Gameobjects.
 
 ##### Camera
-- [*OrthoScreenCameraBoundaries.cs*](https://github.com/MlleDR/Snippets/blob/dce7c829199b7ce738703c3eb8119bc801212642/Unity/CSharp/OrthoScreenCameraBoundaries.cs) - Some examples of screen positions on an Orthographic camera (Center, TopLeft, TopRight, BottonLeft, BottonRight)
+- [*OrthoScreenCameraBoundaries.cs*](https://github.com/MlleDR/Snippets/blob/dce7c829199b7ce738703c3eb8119bc801212642/Unity/CSharp/Camera/OrthoScreenCameraBoundaries.cs) - Some examples of screen positions on an Orthographic camera (Center, TopLeft, TopRight, BottonLeft, BottonRight)
 
 ##### Input
-- [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
+- [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Inputs/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
 
 ##### Utilities
-- [*MapValueToRange.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/MapValueToRange.cs) - Method to map a value between a given range.
-- [*CallFunctionAtInterval.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/CallFunctionAtInterval.cs) - Method to call a function at a given interval.
-- [*PrintOnlyOnceInUpdateMethod.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/PrintOnlyOnceInUpdateMethod.cs) - Method that will call a function only Once in the Update() method.
+- [*MapValueToRange.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/MapValueToRange.cs) - Method to map a value between a given range.
+- [*CallFunctionAtInterval.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/CallFunctionAtInterval.cs) - Method to call a function at a given interval.
+- [*PrintOnlyOnceInUpdateMethod.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/PrintOnlyOnceInUpdateMethod.cs) - Method that will call a function only Once in the Update() method.
 
 
 
@@ -51,7 +51,7 @@ Feel free to contact me for any questions or advice on improving the snippets po
 
 
 #### Android Device
-- [*DetectDevice_PC_Android.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/DetectDevice_PC_Android.cs) - Detect easily if your app is running on an Android device or in Play mode in Unity engine. This little piece of code frees you from using public user booleans switched manually between PC and Android.
+- [*DetectDevice_PC_Android.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Android Device/DetectDevice_PC_Android.cs) - Detect easily if your app is running on an Android device or in Play mode in Unity engine. This little piece of code frees you from using public user booleans switched manually between PC and Android.
 
 
 ##
@@ -59,10 +59,10 @@ Feel free to contact me for any questions or advice on improving the snippets po
 
 #### Creative Coding
 ##### Color
-- [*XYZ_TO_AdobeRGB.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/XYZ_TO_AdobeRGB.cs) - Method that returns an Adobe RGB vector from XYZ coordinates. I created this function to convert my xyz movement to color. You can find [some samples of my work here](https://lefemmemademoiselle.tumblr.com/tagged/dance/chrono/page/4).
+- [*XYZ_TO_AdobeRGB.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Color/XYZ_TO_AdobeRGB.cs) - Method that returns an Adobe RGB vector from XYZ coordinates. I created this function to convert my xyz movement to color. You can find [some samples of my work here](https://lefemmemademoiselle.tumblr.com/tagged/dance/chrono/page/4).
 
 ##### Canvas
-- [*ScreenArray.cs*](https://github.com/MlleDR/Snippets/blob/5c434ca40d9ad534b68d8d0987933112cc04d490/Unity/CSharp/ScreenArray.cs) - Get a Screen Array from TopLeft to BottomRight corner with borders and illustrate with spheres on an Orthographic camera.
+- [*ScreenArray.cs*](https://github.com/MlleDR/Snippets/blob/5c434ca40d9ad534b68d8d0987933112cc04d490/Unity/CSharp/Canvas/ScreenArray.cs) - Get a Screen Array from TopLeft to BottomRight corner with borders and illustrate with spheres on an Orthographic camera.
 
 ![image](https://user-images.githubusercontent.com/27687330/117535157-ce1fbe80-aff4-11eb-86b8-e88af15f331e.png)
 
