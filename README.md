@@ -34,7 +34,7 @@ Feel free to contact me for any questions or advice on improving the snippets po
 - [*DistanceFromTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Maths/DistanceFromTarget.cs) - Methods to calculate the distance between two Gameobjects.
 
 ##### Camera
-- [*OrthoScreenCameraBoundaries.cs*](https://github.com/MlleDR/Snippets/blob/dce7c829199b7ce738703c3eb8119bc801212642/Unity/CSharp/Camera/OrthoScreenCameraBoundaries.cs) - Some examples of screen positions on an Orthographic camera (Center, TopLeft, TopRight, BottonLeft, BottonRight)
+- [*OrthoScreenCameraBoundaries.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Camera/OrthoScreenCameraBoundaries.cs) - Some examples of screen positions on an Orthographic camera (Center, TopLeft, TopRight, BottonLeft, BottonRight)
 
 ##### Input
 - [*CallKeyDownWithDelay.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Inputs/CallKeyDownWithDelay.cs) - Method to trigger a KeyDown (analog or bool) with a given delay. Let you control the rate a button triggers an action.
