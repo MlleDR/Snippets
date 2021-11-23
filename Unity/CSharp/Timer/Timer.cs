@@ -14,8 +14,8 @@ public class Timer: MonoBehaviour
 
     // When Finished
     private bool started = false;
-    
     #endregion
+
 
     // Run Method - Run the timer
     public void Run()
@@ -29,16 +29,14 @@ public class Timer: MonoBehaviour
         }
     }
 
+
     #region Properties
     // Duration (float) - Duration of the timer
     public float Duration
     {
         set
         {
-            if (!running)
-            {
-                totalSeconds = value;
-            }
+            if (!running) totalSeconds = value;
         }
     }
 
@@ -54,7 +52,6 @@ public class Timer: MonoBehaviour
     {
         get { return running; }
     }
-
     #endregion
 
 
@@ -64,10 +61,7 @@ public class Timer: MonoBehaviour
         if (running)
         {
             elapsedSeconds += Time.deltaTime;
-            if (elapsedSeconds >= totalSeconds)
-            {
-                running = false;
-            }
+            if (elapsedSeconds >= totalSeconds) running = false;
         }
     }
 }
