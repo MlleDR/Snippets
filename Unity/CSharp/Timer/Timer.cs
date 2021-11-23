@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Timer Class ------------------
 public class Timer: MonoBehaviour
 {
     #region Variables
