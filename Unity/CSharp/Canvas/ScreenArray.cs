@@ -17,7 +17,11 @@
     private void Awake()
     {
         cam = Camera.main;
-        
+    }
+
+
+    private void Start()
+    {
         SetPosition(center);
         DrawArrayOnCanvas();
     }
