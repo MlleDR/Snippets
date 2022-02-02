@@ -18,7 +18,7 @@
     {
         cam = Camera.main;
         
-        InitPosition(center);
+        SetPosition(center);
         DrawArrayOnCanvas();
     }
 
@@ -46,7 +46,7 @@
 
 
     // Ex : Position gameoject at the center of the screen
-    private void InitPosition(Vector3 position)
+    private void SetPosition (Vector3 position)
     {
         transform.position = topleft; 
     }
