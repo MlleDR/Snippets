@@ -18,8 +18,8 @@
     {
         cam = Camera.main;
         
-        // Get an Screen array and illustrate with spheres
-        GetScreenArray();
+        InitPosition(center);
+        DrawArrayOnCanvas();
     }
 
 
@@ -40,15 +40,21 @@
         topleft = cam.ScreenToWorldPoint(new Vector3(x1, y1, 0));
         topRight = cam.ScreenToWorldPoint(new Vector3(x2, y1, 0));
         bottomLeft = cam.ScreenToWorldPoint(new Vector3(x1, y2, 0));
-        bottomRight = cam.ScreenToWorldPoint(new Vector3(x2, y2, 0))
+        bottomRight = cam.ScreenToWorldPoint(new Vector3(x2, y2, 0));
+    }
+    
 
-        // Ex : Position gameoject at the center of the screen
+
+    // Ex : Position gameoject at the center of the screen
+    private void InitPosition(Vector3 position)
+    {
         transform.position = topleft; 
     }
     
-    
-    // Get an Screen array (TopLeft to BottomRight) and illustrate with spheres
-    private void GetScreenArray()
+
+
+    // Draw an array of Spheres (TopLeft to BottomRight) 
+    private void DrawArrayOnCanvas()
     {
         for (var j = topleft.y; j >= bottomLeft.y; j--)
         {
