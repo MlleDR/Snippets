@@ -60,12 +60,12 @@
     // Draw an array of Spheres (TopLeft to BottomRight) 
     private void DrawArrayOnCanvas()
     {
-        for (var j = topleft.y; j >= bottomLeft.y; j--)
+        for (var y = bottomLeft.y; y <= topRight.y; y++)
         {
-            for (var i = topleft.x; i < topRight.x; i++)
+            for (var x = bottomLeft.x; x <= topRight.x; x++)
             {
-                GameObject dot = GameObject.CreatePrimitive(PrimitiveType.Sphere); // Illustration of the array with spheres
-                dot.transform.position = new Vector2(i, j);
+                GameObject dot = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                dot.transform.position = new Vector2(x, y);
             }
         }
     }
