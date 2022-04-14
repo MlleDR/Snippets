@@ -43,6 +43,7 @@ Feel free to contact me for any questions or advice on improving the snippets po
 - [*MapValueToRange.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/MapValueToRange.cs) - Method to map a value between a given range.
 - [*CallFunctionAtInterval.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/CallFunctionAtInterval.cs) - Method to call a function at a given interval.
 - [*PrintOnlyOnceInUpdateMethod.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/PrintOnlyOnceInUpdateMethod.cs) - Method that will call a function only Once in the Update() method.
+- [*LookAtTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Utilities/LookAtTarget.cs) - Look at a target (seperate XYZ axis)
 
 
 
