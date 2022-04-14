@@ -13,12 +13,10 @@ public class LookAtTarget: MonoBehaviour
     [SerializeField] private bool yAxis;
     [SerializeField] private bool zAxis;
 
-
     private void Update()
     {
         LookAt(targetToLookAt);
     }
-
 
     private void LookAt(Transform target)
     {
