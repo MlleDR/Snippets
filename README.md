@@ -24,6 +24,7 @@ Feel free to contact me for any questions or advice on improving the snippets po
 ##### Animation
 - [*RotateCameraAroundTarget.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Animation/RotateCameraAroundTarget.cs) - Method to orbit camera (or any object of your choice) around a target. I usually put this script on my Main Camera to orbit (and debug) a specific scene component at runtime. It's also perfect for demos.
 - [*ConstantLerp.cs*](https://github.com/MlleDR/Snippets/blob/b3f8662d5cde929fbd08fffb7d1983073558af9c/Unity/CSharp/ConstantLerp.cs) - Constant Vector3.Lerp from A to B with speed
+- [*DetectDirectionalRotation.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Animation/DetectDirectionalRotation.cs) - Detect if an object/player is rotating clockwise or anti-clockwise
 
 ##### Components
 - [*AddComponent_TextMesh.cs*](https://github.com/MlleDR/Snippets/blob/master/Unity/CSharp/Components/AddComponent_TextMesh.cs) - Create a TextMesh component in realtime. 
